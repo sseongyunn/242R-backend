@@ -5,6 +5,6 @@ const port = 3000;
 
 const app = express();
 
-app.use('/', router);
+app.use('/', router);ㅎ
 
 app.listen(port, () => console.log(`Server listening on port ${port}!`));
