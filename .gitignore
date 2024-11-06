@@ -1,1 +1,7 @@
 *.txt
+
+//24.10.31 케이웹 백엔드 수업 자료 복습하면서 expressjs 실행을 위해 gitignore 파일 편집함(p.38)
+//'node_modules' 폴더명을 가졌다면? 그 폴더 내부의 모든 파일을 무시한다.
+node_modules/
+//아래 파일 무시.
+package-lock.json
