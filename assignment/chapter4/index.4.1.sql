@@ -1,0 +1,13 @@
+CREATE TABLE `students` (
+    `학번` INT NOT NULL AUTO_INCREMENT,
+    `이름` VARCHAR(20) NOT NULL,
+    `입학 연도` INT NOT NULL,
+    `전공` VARCHAR(15) NOT NULL,
+    `개별 번호` INT NOT NULL,
+    `전화번호` VARCHAR(11) NOT NULL,
+    `주소` VARCHAR(100) NOT NULL,
+    `누적 이수학점` INT NOT NULL DEFAULT 0,
+    `평균 평점` DOUBLE NOT NULL DEFAULT 0.0,
+    `재학 여부 정보` BOOLEAN DEFAULT TRUE,
+    PRIMARY KEY (`학번`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
